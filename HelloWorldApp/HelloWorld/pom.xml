@@ -61,6 +61,7 @@
   <build>
     <plugins>
       <plugin>
+        <?audit suppress oracle.ide.maven.validation-warnings?>
         <groupId>com.oracle.soa.plugin</groupId>
         <artifactId>oracle-soa-plugin</artifactId>
         <version>12.1.3-0-0</version>
