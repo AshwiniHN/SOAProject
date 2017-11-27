@@ -87,6 +87,7 @@
             </hash>
             <hash>
                <list n="pattern-filters">
+                  <string v="+pom123.xml"/>
                   <string v="+pom.xml"/>
                </list>
                <list n="url-path">
@@ -224,7 +225,7 @@
       </list>
    </hash>
    <hash n="oracle.jdeveloper.maven.compiler.MavenConfiguration">
-      <url n="pomfileURL" path="pom.xml"/>
+      <url n="pomfileURL" path="pom123.xml"/>
    </hash>
    <hash n="oracle.jdeveloper.model.J2eeSettings">
       <value n="j2eeWebAppName" v="HelloWorldApp-HelloWorld-webapp"/>
